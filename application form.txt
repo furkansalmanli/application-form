@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Furkan SALMANLI">
+
+<style>
+body
+{
+ text-align:center; 
+ background-color:#00FF7F;
+}
+ #düzenle
+{
+ text-align:left;
+ width:400px;
+ margin:auto;
+ background-color:#7fffd4;
+}
+.giris
+{
+ width:200px; 
+}
+#kaydet
+{
+ width:100px;
+ height:20px;
+ font:14px Arial;
+ border:0px;
+ background-color:#C60;
+ text-align:center;
+ color:#FFF; 
+}
+</style>
+
+<title>FORM</title>
+</head>
+<body>
+<div id="düzenle">
+ <table width="400" border="1">
+     <tr>
+      <th colspan="2">Basvuru Formu<br>&nbsp;</th>
+     </tr><tr>
+         <td width="120">Ad-Soyad</td>
+            <td><input class="giris" name="ad"></td>
+        </tr><tr>
+         <td> Bolum</td>
+            <td>
+             <select class="giris" name="bolum">
+             <optgroup>bolum</optgroup>
+                 <option value="1">Bilgisayar Muhendisligi Birinci Ogretim</option>
+                    <option value="2">Bilgisayar Muhendisligi Ikinci Ogretim</option>
+                                       
+                </select>
+            </td>
+        </tr><tr>
+         <td>Ogrenci No</td>
+            <td><input class="giris" name="no"></td>
+        </tr><tr>
+         <td>Cinsiyet</td>
+            <td><input name="cins" value="0" type="radio">Erkek&nbsp;<input name="cins" value="1" type="radio">Bayan</td>
+        </tr><tr>
+         <td>Email:</td>
+            <td><input class="giris" name="e-Mail"></td>
+        </tr><tr>
+         <td>Tel:</td>
+            <td><input class="giris" name="tel"></td>
+        </tr><tr>
+         <td colspan="2" align="center"><br> <input id="kaydet" type="submit" value="Kaydet"> </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
